@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>platonny@ngs.ru</email>
+		<name>Platon Peacel☮ve</name>
+	</maintainer>
+	<longdescription lang="en">
+	Peyote is an audio player with friendly MC-like interface.
+	Peyote is designed specifically for work easy with cue sheets.
+	Peyote supports wv ( wavepack ), wav, flac, ape, ogg and mp3 formats.
+	</longdescription>
+</pkgmetadata>
