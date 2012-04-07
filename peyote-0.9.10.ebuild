@@ -95,6 +95,7 @@ src_configure() {
 		--host=${CHOST} \
 		--prefix=/usr \
 		--infodir=/usr/share/info \
+		--disable-gst-plugins-check \
 		--mandir=/usr/share/man || die
 }
 
