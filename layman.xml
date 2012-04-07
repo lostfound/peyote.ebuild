@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<layman>
+  <overlay 
+    type = "git"
+    src = "git://github.com/lostfound/peyote.ebuild.git"
+    contact = "platonny@ngs.ru"
+    status = "unofficial"
+    name = "peyote">
+
+    <link>git://github.com/lostfound/peyote.ebuild.git</link>
+    <description>Peyote</description>
+  </overlay>
+</layman>
