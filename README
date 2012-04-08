@@ -3,4 +3,5 @@ PEYOTE OVERLAY
 	layman -o https://raw.github.com/lostfound/peyote.ebuild/master/layman.xml -f -a peyote
 	vim /etc/portage/package.use; vim /etc/portage/package.keywords
 	emerge media-sound/peyote
+	emerge media-sound/lossless-tools
 	emerge x11-misc/wppd
