@@ -36,6 +36,7 @@ IUSE=""
 DEPEND="
 media-sound/mac
 media-libs/mutagen
+media-libs/flac
 "
 
 # Run-time dependencies. Must be defined to whatever this depends on to run.
