@@ -30,9 +30,9 @@ SRC_URI="http://sourceforge.net/projects/peyote/files/Linux/peyote_0.9.10.tar.bz
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64"
 
-IUSE="inotify oss alsa jack pulse wavpack ogg mp3 lame flac"
+IUSE="inotify oss alsa jack pulse wavpack ogg mp3 lame flac pitch"
 
 DEPEND="media-libs/mutagen
 dev-python/pygobject
@@ -48,6 +48,7 @@ pulse? ( media-plugins/gst-plugins-pulse )
 jack? ( media-plugins/gst-plugins-jack )
 alsa? ( media-plugins/gst-plugins-alsa )
 
+pitch? ( media-plugins/gst-plugins-soundtouch )
 flac? ( media-plugins/gst-plugins-flac )
 lame? ( media-plugins/gst-plugins-lame )
 ogg? ( media-plugins/gst-plugins-ogg  media-plugins/gst-plugins-vorbis )
