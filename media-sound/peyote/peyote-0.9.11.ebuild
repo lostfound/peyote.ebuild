@@ -17,12 +17,12 @@
 # The PMS contains specifications for all EAPIs. Eclasses will test for this
 # variable if they need to use EAPI > 0 features.
 #PYTHON_DEPEND="python? 2"
+EAPI=4
+inherit eutils
 PYTHON_USE_WITH="threads ncurses"
 NCURSES_USE_WITH="unicode"
 PYTHON_DEPEND="2"
-EAPI=4
 
-inherit eutils
 DESCRIPTION="Peyote is an audio player with friendly MC-like interface"
 HOMEPAGE="http://peyote.sourceforge.net/"
 MY_P="peyote_0.9.11"
