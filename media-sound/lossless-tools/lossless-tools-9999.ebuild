@@ -17,11 +17,11 @@
 # The PMS contains specifications for all EAPIs. Eclasses will test for this
 # variable if they need to use EAPI > 0 features.
 #PYTHON_DEPEND="python? 2"
+EAPI=4
+inherit eutils git-2
 NCURSES_USE_WITH="unicode"
 PYTHON_DEPEND="2"
-EAPI=4
 
-inherit eutils git-2
 DESCRIPTION="Some scripts for manipulating your lossless audio collection."
 HOMEPAGE="https://github.com/lostfound/lossless-tools"
 EGIT_REPO_URI="git://github.com/lostfound/lossless-tools.git"
