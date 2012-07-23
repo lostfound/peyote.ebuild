@@ -41,9 +41,6 @@ RDEPEND="${DEPEND}"
 src_prepare() {
 	epatch "${FILESDIR}"/vimpager-makefile.patch
 }
-src_compile() {
-	#emake || die
-}
 
 src_install() {
 	PREFIX="${D}/usr" emake DESTDIR="${D}" install || die
