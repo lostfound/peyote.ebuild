@@ -42,7 +42,7 @@ src_prepare() {
 	epatch "${FILESDIR}"/vimpager-makefile.patch
 }
 src_compile() {
-	emake || die
+	#emake || die
 }
 
 src_install() {
