@@ -1,0 +1,14 @@
+diff -dru vimpager.orig/Makefile vimpager/Makefile
+--- vimpager.orig/Makefile	2012-07-23 23:33:46.000000000 +0700
++++ vimpager/Makefile	2012-07-24 01:11:54.068329310 +0700
+@@ -12,8 +12,8 @@
+ install:
+ 	${INSTALLDIR} ${DESTDIR}${PREFIX}/bin
+ 	${INSTALLBIN} vimpager ${DESTDIR}${PREFIX}/bin/
+-	${INSTALLDIR} ${DESTDIR}${PREFIX}/man/man1
+-	${INSTALLMAN} vimpager.1 ${DESTDIR}${PREFIX}/man/man1
++	${INSTALLDIR} ${DESTDIR}${PREFIX}/share/man/man1
++	${INSTALLMAN} vimpager.1 ${DESTDIR}${PREFIX}/share/man/man1
+ 
+ man: vimpager.1
+ 

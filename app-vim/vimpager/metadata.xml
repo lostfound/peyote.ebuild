@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>platonny@ngs.ru</email>
+		<name>Platon Peacel☮ve</name>
+	</maintainer>
+	<longdescription lang="en">
+	A slightly more sophisticated replacement for less.sh that also supports
+	being set as the PAGER environment variable. Displays man pages,
+	perldocs and python documentation properly. Works on Linux, Solaris,
+	FreeBSD, OpenBSD, OSX, Cygwin and msys. Should work on most other
+	systems as well.
+	</longdescription>
+</pkgmetadata>
