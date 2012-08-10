@@ -26,7 +26,7 @@ PYTHON_DEPEND="2"
 DESCRIPTION="Peyote is an audio player with friendly MC-like interface"
 HOMEPAGE="http://peyote.sourceforge.net/"
 MY_P="peyote_0.9.11.7"
-SRC_URI="http://peyote.itbuben.org/src/peyote_0.9.11.6.tar.bz2"
+SRC_URI="http://peyote.itbuben.org/src/peyote_0.9.11.7.tar.bz2"
 
 LICENSE="GPL-3"
 SLOT="0"
