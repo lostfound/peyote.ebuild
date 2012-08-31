@@ -25,14 +25,14 @@ PYTHON_DEPEND="2"
 
 DESCRIPTION="Peyote is an audio player with friendly MC-like interface"
 HOMEPAGE="http://peyote.sourceforge.net/"
-MY_P="peyote_0.9.11.10"
-SRC_URI="http://peyote.itbuben.org/src/peyote_0.9.11.10.tar.bz2"
+MY_P="peyote_0.9.12"
+SRC_URI="http://sourceforge.net/projects/peyote/files/Linux/peyote_0.9.12.tar.bz2"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="x86 amd64"
 
-IUSE="inotify oss alsa jack pulse wavpack ogg mp3 lame flac pitch"
+IUSE="inotify oss alsa jack pulse wavpack ogg mp3 lame flac pitch X"
 
 DEPEND="media-libs/mutagen
 dev-python/pygobject
@@ -43,10 +43,12 @@ media-libs/gst-plugins-base
 media-libs/gst-plugins-good
 sys-libs/ncurses
 
+X? ( x11-terms/rxvt-unicode )
 oss? ( media-plugins/gst-plugins-oss )
 pulse? ( media-plugins/gst-plugins-pulse )
 jack? ( media-plugins/gst-plugins-jack )
 alsa? ( media-plugins/gst-plugins-alsa )
+
 
 pitch? ( media-plugins/gst-plugins-soundtouch )
 flac? ( media-plugins/gst-plugins-flac )
