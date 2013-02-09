@@ -38,9 +38,9 @@ DEPEND=""
 # Run-time dependencies. Must be defined to whatever this depends on to run.
 # The below is valid if the same run-time depends are required to compile.
 RDEPEND="${DEPEND}"
-src_prepare() {
-	epatch "${FILESDIR}"/vimpager-makefile.patch
-}
+#src_prepare() {
+#	#epatch "${FILESDIR}"/vimpager-makefile.patch
+#}
 
 src_install() {
 	PREFIX="/usr" emake DESTDIR="${D}" install || die

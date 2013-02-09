@@ -1,4 +1,4 @@
-PEYOTE OVERLAY
+P EYOTE OVERLAY
 	eselect python set 1 #python2.7
 	layman -o https://raw.github.com/lostfound/peyote.ebuild/master/layman.xml -f -a peyote
 	vim /etc/portage/package.use; vim /etc/portage/package.keywords
